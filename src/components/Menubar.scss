@@ -1,0 +1,38 @@
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    font-size: 50px;
+    margin: 40px 0;
+  }
+
+  input {
+    border: none;
+    font-size: 20px;
+    padding: 4px;
+    border-bottom: 1px solid #ffffff1a;
+    width: 50vw;
+    margin-bottom: 50px;
+    transition: font-size 0.2s ease;
+    background-color: rgb(7, 7, 27);
+
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid #ffffffb4;
+    }
+    // &:hover {
+    //   font-size: 24px; /* Aumenta o tamanho da fonte em 4 pixels ao passar o mouse sobre o input */
+    // }
+  }
+
+  button {
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 6px;
+    background-color: rgb(7, 7, 27);
+  }
+}

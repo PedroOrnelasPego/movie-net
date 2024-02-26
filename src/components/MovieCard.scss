@@ -1,0 +1,17 @@
+.movie-card {
+  width: 30%;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: #1111118a;
+  .details {
+    transition: font-weight 0.2s ease;
+
+    &:hover {
+      font-weight: bold;
+    }
+  }
+
+}
