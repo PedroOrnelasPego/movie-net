@@ -1,8 +1,15 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descrição curta do projeto.
 
-Currently, two official plugins are available:
+## Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é uma aplicação web construída com React que consome a API do themoviedb para exibir informações sobre filmes. Utiliza a biblioteca `react-icons` para ícones e `react-router-dom` para manipulação das Rotas.
+
+## Funcionalidades
+
+- [x] Listagem de filmes populares
+- [x] Detalhes do filme
+- [x] Pesquisa de filmes
+- [ ] Adicionar filmes à lista de favoritos (em desenvolvimento)
+- [ ] Sistema de autenticação de usuário (em desenvolvimento)
